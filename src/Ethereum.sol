@@ -43,37 +43,37 @@ library SparkLendEthereum {
     /******************************************************************************************************************/
 
     address internal constant DAI_ATOKEN            = 0x4DEDf26112B3Ec8eC46e7E31EA5e123490B05B8B;
-    address internal constant DAI_IRM               = 0x113dc45c524404F91DcbbAbB103506bABC8Df0FE;  // TODO: Replace?
+    address internal constant DAI_IRM               = 0x7949a8Ef09c49506cCB1cB983317272dcf4170Dd;
     address internal constant DAI_ORACLE            = 0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9;
     address internal constant DAI_STABLE_DEBT_TOKEN = 0xfe2B7a7F4cC0Fb76f7Fc1C6518D586F1e4559176;
     address internal constant DAI_DEBT_TOKEN        = 0xf705d2B7e92B3F38e6ae7afaDAA2fEE110fE5914;
 
     address internal constant SDAI_ATOKEN            = 0x78f897F0fE2d3B5690EbAe7f19862DEacedF10a7;
-    address internal constant SDAI_IRM               = 0xeC4cf692c18E62159a39704Aa1Db82ca2306fF90;  // TODO: Replace?
+    address internal constant SDAI_IRM               = 0xeC4cf692c18E62159a39704Aa1Db82ca2306fF90;
     address internal constant SDAI_ORACLE            = 0xb9E6DBFa4De19CCed908BcbFe1d015190678AB5f;
     address internal constant SDAI_STABLE_DEBT_TOKEN = 0xEc6C6aBEd4DC03299EFf82Ac8A0A83643d3cB335;
     address internal constant SDAI_DEBT_TOKEN        = 0xaBc57081C04D921388240393ec4088Aa47c6832B;
 
     address internal constant USDC_ATOKEN            = 0x377C3bd93f2a2984E1E7bE6A5C22c525eD4A4815;
-    address internal constant USDC_IRM               = 0x4d988568b5f0462B08d1F40bA1F5f17ad2D24F76;  // TODO: Replace?
+    address internal constant USDC_IRM               = 0x0F1a9a787b4103eF5929121CD9399224c6455dD6;
     address internal constant USDC_ORACLE            = 0x98e6BcBA7d5daFbfa4a92dAF08d3d7512820c30C;
     address internal constant USDC_STABLE_DEBT_TOKEN = 0x887Ac022983Ff083AEb623923789052A955C6798;
     address internal constant USDC_DEBT_TOKEN        = 0x7B70D04099CB9cfb1Db7B6820baDAfB4C5C70A67;
 
     address internal constant WBTC_ATOKEN            = 0x4197ba364AE6698015AE5c1468f54087602715b2;
-    address internal constant WBTC_IRM               = 0xf2812d7a07573322D4Db3C31239C837081D8294E;  // TODO: Replace?
+    address internal constant WBTC_IRM               = 0xD2139d6d63Acb1e7Cc91cE32bbD86eFb17eBEe46;
     address internal constant WBTC_ORACLE            = 0x230E0321Cf38F09e247e50Afc7801EA2351fe56F;
     address internal constant WBTC_STABLE_DEBT_TOKEN = 0x4b29e6cBeE62935CfC92efcB3839eD2c2F35C1d9;
     address internal constant WBTC_DEBT_TOKEN        = 0xf6fEe3A8aC8040C3d6d81d9A4a168516Ec9B51D2;
 
     address internal constant WETH_ATOKEN            = 0x59cD1C87501baa753d0B5B5Ab5D8416A45cD71DB;
-    address internal constant WETH_IRM               = 0x764b4AB9bCA18eB633d92368F725765Ebb8f047C;  // TODO: Replace?
+    address internal constant WETH_IRM               = 0xD7A8461e6aF708a086D8285f8fD900309336347c;
     address internal constant WETH_ORACLE            = 0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419;
     address internal constant WETH_STABLE_DEBT_TOKEN = 0x3c6b93D38ffA15ea995D1BC950d5D0Fa6b22bD05;
     address internal constant WETH_DEBT_TOKEN        = 0x2e7576042566f8D6990e07A1B61Ad1efd86Ae70d;
 
     address internal constant WSTETH_ATOKEN            = 0x12B54025C112Aa61fAce2CDB7118740875A566E9;
-    address internal constant WSTETH_IRM               = 0x0D56700c90a690D8795D6C148aCD94b12932f4E3;  // TODO: Replace?
+    address internal constant WSTETH_IRM               = 0x0D56700c90a690D8795D6C148aCD94b12932f4E3;
     address internal constant WSTETH_ORACLE            = 0xA9F30e6ED4098e9439B2ac8aEA2d3fc26BcEbb45;
     address internal constant WSTETH_STABLE_DEBT_TOKEN = 0x9832D969a0c8662D98fFf334A4ba7FeE62b109C2;
     address internal constant WSTETH_DEBT_TOKEN        = 0xd5c3E3B566a42A6110513Ac7670C1a86D76E13E6;
