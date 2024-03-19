@@ -1,25 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 pragma solidity ^0.8.13;
 
-library TokensGnosis {
-
-    address internal constant DAI    = 0x6B175474E89094C44Da98b954EedeAC495271d0F;  // TODO: Fill in
-    address internal constant SDAI   = 0x83F20F44975D03b1b09e64809B757c47f942BEeA;  // TODO: Fill in
-    address internal constant USDC   = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;  // TODO: Fill in
-    address internal constant WBTC   = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;  // TODO: Fill in
-    address internal constant WETH   = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;  // TODO: Fill in
-    address internal constant WSTETH = 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0;  // TODO: Fill in
-
-}
-
-library SparkLendGnosis {
-
-    /******************************************************************************************************************/
-    /*** Actor Addresses                                                                                            ***/
-    /******************************************************************************************************************/
-
-    address internal constant ADMIN    = 0xc4218C1127cB24a0D6c1e7D25dc34e10f2625f5A;  // TODO: Spark proxy?
-    address internal constant DEPLOYER = 0xd1236a6A111879d9862f8374BA15344b6B233Fbd;
+library Gnosis {
 
     /******************************************************************************************************************/
     /*** Core Protocol Addresses                                                                                    ***/
@@ -37,46 +19,6 @@ library SparkLendGnosis {
     address internal constant TREASURY                         = 0xb9E6DBFa4De19CCed908BcbFe1d015190678AB5f;
     address internal constant TREASURY_CONTROLLER              = 0x8220096398c3Dc2644026E8864f5D80Ef613B437;
     address internal constant WETH_GATEWAY                     = 0xBD7D6a9ad7865463DE44B05F04559f65e3B11704;
-
-    /******************************************************************************************************************/
-    /*** Reserve Addresses                                                                                          ***/
-    /******************************************************************************************************************/
-
-    address internal constant DAI_ATOKEN            = address(0);  // TODO: Fill in?
-    address internal constant DAI_IRM               = address(0);  // TODO: Fill in?
-    address internal constant DAI_ORACLE            = address(0);  // TODO: Fill in?
-    address internal constant DAI_STABLE_DEBT_TOKEN = address(0);  // TODO: Fill in?
-    address internal constant DAI_DEBT_TOKEN        = address(0);  // TODO: Fill in?
-
-    address internal constant SDAI_ATOKEN            = address(0);  // TODO: Fill in?
-    address internal constant SDAI_IRM               = address(0);  // TODO: Fill in?
-    address internal constant SDAI_ORACLE            = address(0);  // TODO: Fill in?
-    address internal constant SDAI_STABLE_DEBT_TOKEN = address(0);  // TODO: Fill in?
-    address internal constant SDAI_DEBT_TOKEN        = address(0);  // TODO: Fill in?
-
-    address internal constant USDC_ATOKEN            = address(0);  // TODO: Fill in?
-    address internal constant USDC_IRM               = address(0);  // TODO: Fill in?
-    address internal constant USDC_ORACLE            = address(0);  // TODO: Fill in?
-    address internal constant USDC_STABLE_DEBT_TOKEN = address(0);  // TODO: Fill in?
-    address internal constant USDC_DEBT_TOKEN        = address(0);  // TODO: Fill in?
-
-    address internal constant WBTC_ATOKEN            = address(0);  // TODO: Fill in?
-    address internal constant WBTC_IRM               = address(0);  // TODO: Fill in?
-    address internal constant WBTC_ORACLE            = address(0);  // TODO: Fill in?
-    address internal constant WBTC_STABLE_DEBT_TOKEN = address(0);  // TODO: Fill in?
-    address internal constant WBTC_DEBT_TOKEN        = address(0);  // TODO: Fill in?
-
-    address internal constant WETH_ATOKEN            = address(0);  // TODO: Fill in?
-    address internal constant WETH_IRM               = address(0);  // TODO: Fill in?
-    address internal constant WETH_ORACLE            = address(0);  // TODO: Fill in?
-    address internal constant WETH_STABLE_DEBT_TOKEN = address(0);  // TODO: Fill in?
-    address internal constant WETH_DEBT_TOKEN        = address(0);  // TODO: Fill in?
-
-    address internal constant WSTETH_ATOKEN            = address(0);  // TODO: Fill in?
-    address internal constant WSTETH_IRM               = address(0);  // TODO: Fill in?
-    address internal constant WSTETH_ORACLE            = address(0);  // TODO: Fill in?
-    address internal constant WSTETH_STABLE_DEBT_TOKEN = address(0);  // TODO: Fill in?
-    address internal constant WSTETH_DEBT_TOKEN        = address(0);  // TODO: Fill in?
 
     /******************************************************************************************************************/
     /*** Data Provider Addresses                                                                                    ***/

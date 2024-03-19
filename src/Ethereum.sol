@@ -1,7 +1,26 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 pragma solidity ^0.8.13;
 
-library TokensEthereum {
+library Ethereum {
+
+    /******************************************************************************************************************/
+    /*** MakerDAO Addresses                                                                                         ***/
+    /******************************************************************************************************************/
+
+    address internal constant MKR         = 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2;
+    address internal constant PAUSE_PROXY = 0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB;
+    address internal constant POT         = 0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7;
+    address internal constant VAT         = 0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B;
+
+    /******************************************************************************************************************/
+    /*** SparkDAO Addresses                                                                                         ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPARK_PROXY = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
+
+    /******************************************************************************************************************/
+    /*** Token Addresses                                                                                            ***/
+    /******************************************************************************************************************/
 
     address internal constant DAI    = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
     address internal constant SDAI   = 0x83F20F44975D03b1b09e64809B757c47f942BEeA;
@@ -9,17 +28,6 @@ library TokensEthereum {
     address internal constant WBTC   = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
     address internal constant WETH   = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
     address internal constant WSTETH = 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0;
-
-}
-
-library SparkLendEthereum {
-
-    /******************************************************************************************************************/
-    /*** Actor Addresses                                                                                            ***/
-    /******************************************************************************************************************/
-
-    address internal constant ADMIN    = 0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB;  // TODO: Spark proxy?
-    address internal constant DEPLOYER = 0xd1236a6A111879d9862f8374BA15344b6B233Fbd;
 
     /******************************************************************************************************************/
     /*** Core Protocol Addresses                                                                                    ***/
