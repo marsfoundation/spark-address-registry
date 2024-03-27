@@ -45,9 +45,9 @@ library Ethereum {
     address internal constant DAI_DEBT_TOKEN        = 0xf705d2B7e92B3F38e6ae7afaDAA2fEE110fE5914;
 
     address internal constant GNO                   = 0x6810e776880C02933D47DB1b9fc05908e5386b96;
-    address internal constant GNO_ATOKEN            = 0xbf13910620722D4D4F8A03962894EB3335Bf4FaE;
-    address internal constant GNO_STABLE_DEBT_TOKEN = 0x57a2957651DA467fCD4104D749f2F3684784c25a;
-    address internal constant GNO_DEBT_TOKEN        = 0x554265A713D6746A62d86A797254590784D436AA;
+    address internal constant GNO_ATOKEN            = 0x7b481aCC9fDADDc9af2cBEA1Ff2342CB1733E50F;
+    address internal constant GNO_STABLE_DEBT_TOKEN = 0xbf13910620722D4D4F8A03962894EB3335Bf4FaE;
+    address internal constant GNO_DEBT_TOKEN        = 0x57a2957651DA467fCD4104D749f2F3684784c25a;
 
     address internal constant RETH                   = 0xae78736Cd615f374D3085123A210448E74Fc6393;
     address internal constant RETH_ATOKEN            = 0x9985dF20D7e9103ECBCeb16a84956434B6f06ae8;
@@ -65,9 +65,9 @@ library Ethereum {
     address internal constant USDC_DEBT_TOKEN        = 0x7B70D04099CB9cfb1Db7B6820baDAfB4C5C70A67;
 
     address internal constant USDT                   = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
-    address internal constant USDT_ATOKEN            = 0x0Dae62F953Ceb2E969fB4dE85f3F9074fa920776;
-    address internal constant USDT_STABLE_DEBT_TOKEN = 0x529b6158d1D2992E3129F7C69E81a7c677dc3B12;
-    address internal constant USDT_DEBT_TOKEN        = 0x0F1a9a787b4103eF5929121CD9399224c6455dD6;
+    address internal constant USDT_ATOKEN            = 0xe7dF13b8e3d6740fe17CBE928C7334243d86c92f;
+    address internal constant USDT_STABLE_DEBT_TOKEN = 0x0Dae62F953Ceb2E969fB4dE85f3F9074fa920776;
+    address internal constant USDT_DEBT_TOKEN        = 0x529b6158d1D2992E3129F7C69E81a7c677dc3B12;
 
     address internal constant WBTC                   = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
     address internal constant WBTC_ATOKEN            = 0x4197ba364AE6698015AE5c1468f54087602715b2;

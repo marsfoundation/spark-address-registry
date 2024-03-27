@@ -24,24 +24,24 @@ library Gnosis {
     /******************************************************************************************************************/
 
     address internal constant GNO                   = 0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb;
-    address internal constant GNO_ATOKEN            = 0x2f589BADbE2024a94f144ef24344aF91dE21a33c;
-    address internal constant GNO_STABLE_DEBT_TOKEN = 0xd4bAbF714964E399f95A7bb94B3DeaF22d9F575d;
-    address internal constant GNO_DEBT_TOKEN        = 0xE74569197bFba0e2231c84587cc5f9ceDB807043;
+    address internal constant GNO_ATOKEN            = 0x5671b0B8aC13DC7813D36B99C21c53F6cd376a14;
+    address internal constant GNO_STABLE_DEBT_TOKEN = 0x2f589BADbE2024a94f144ef24344aF91dE21a33c;
+    address internal constant GNO_DEBT_TOKEN        = 0xd4bAbF714964E399f95A7bb94B3DeaF22d9F575d;
 
     address internal constant WETH                   = 0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1;
-    address internal constant WETH_ATOKEN            = 0xe21Bf3FB5A2b5Bf7BAE8c6F1696c4B097F5D2f93;
-    address internal constant WETH_STABLE_DEBT_TOKEN = 0x0aD6cCf9a2e81d4d48aB7db791e9da492967eb84;
-    address internal constant WETH_DEBT_TOKEN        = 0xC2C2F532334D5868508f65ddB4610602C6ee8c5d;
+    address internal constant WETH_ATOKEN            = 0x629D562E92fED431122e865Cc650Bc6bdE6B96b0;
+    address internal constant WETH_STABLE_DEBT_TOKEN = 0xe21Bf3FB5A2b5Bf7BAE8c6F1696c4B097F5D2f93;
+    address internal constant WETH_DEBT_TOKEN        = 0x0aD6cCf9a2e81d4d48aB7db791e9da492967eb84;
 
     address internal constant WSTETH                   = 0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6;
-    address internal constant WSTETH_ATOKEN            = 0x0F0e336Ab69D9516A9acF448bC59eA0CE79E4a42;
-    address internal constant WSTETH_STABLE_DEBT_TOKEN = 0x3294dA2E28b29D1c08D556e2B86879d221256d31;
-    address internal constant WSTETH_DEBT_TOKEN        = 0x27c74895F0f49177cc4450Bf017281E556751a1a;
+    address internal constant WSTETH_ATOKEN            = 0x9Ee4271E17E3a427678344fd2eE64663Cb78B4be;
+    address internal constant WSTETH_STABLE_DEBT_TOKEN = 0x0F0e336Ab69D9516A9acF448bC59eA0CE79E4a42;
+    address internal constant WSTETH_DEBT_TOKEN        = 0x3294dA2E28b29D1c08D556e2B86879d221256d31;
 
     address internal constant WXDAI                   = 0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d;
-    address internal constant WXDAI_ATOKEN            = 0xab1B62A1346Acf534b581684940E2FD781F2EA22;
-    address internal constant WXDAI_STABLE_DEBT_TOKEN = 0x868ADfDf12A86422524EaB6978beAE08A0008F37;
-    address internal constant WXDAI_DEBT_TOKEN        = 0x8b0271080D53f759eCc607f13316bDB3B86449e2;
+    address internal constant WXDAI_ATOKEN            = 0xC9Fe2D32E96Bb364c7d29f3663ed3b27E30767bB;
+    address internal constant WXDAI_STABLE_DEBT_TOKEN = 0xab1B62A1346Acf534b581684940E2FD781F2EA22;
+    address internal constant WXDAI_DEBT_TOKEN        = 0x868ADfDf12A86422524EaB6978beAE08A0008F37;
 
     /******************************************************************************************************************/
     /*** Implementation Addresses                                                                                   ***/
