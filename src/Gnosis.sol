@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 library Gnosis {
 
     /******************************************************************************************************************/
-    /*** Core Protocol Addresses                                                                                    ***/
+    /*** SparkLend - Core Protocol Addresses                                                                        ***/
     /******************************************************************************************************************/
 
     address internal constant AAVE_ORACLE                      = 0x8105f69D9C41644c6A0803fDA7D03Aa70996cFD9;
@@ -20,7 +20,7 @@ library Gnosis {
     address internal constant WETH_GATEWAY                     = 0xBD7D6a9ad7865463DE44B05F04559f65e3B11704;
 
     /******************************************************************************************************************/
-    /*** Reserve Token Addresses                                                                                    ***/
+    /*** SparkLend - Reserve Token Addresses                                                                        ***/
     /******************************************************************************************************************/
 
     address internal constant GNO                   = 0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb;
@@ -44,7 +44,7 @@ library Gnosis {
     address internal constant WXDAI_DEBT_TOKEN        = 0x868ADfDf12A86422524EaB6978beAE08A0008F37;
 
     /******************************************************************************************************************/
-    /*** Implementation Addresses                                                                                   ***/
+    /*** SparkLend - Implementation Addresses                                                                       ***/
     /******************************************************************************************************************/
 
     address internal constant A_TOKEN_IMPL             = 0x856900aa78e856a5df1a2665eE3a66b2487cD68f;
@@ -56,7 +56,7 @@ library Gnosis {
     address internal constant VARIABLE_DEBT_TOKEN_IMPL = 0x0ee554F6A1f7a4Cb4f82D4C124DdC2AD3E37fde1;
 
     /******************************************************************************************************************/
-    /*** Config Engine Addresses                                                                                    ***/
+    /*** SparkLend - Config Engine Addresses                                                                        ***/
     /******************************************************************************************************************/
 
     address internal constant PROXY_ADMIN               = 0xf76B8262dfd60fb7432C6b55E91f42b6da953647;
@@ -65,7 +65,7 @@ library Gnosis {
     address internal constant TRANSPARENT_PROXY_FACTORY = 0x91277b74a9d1Cc30fA0ff4927C287fe55E307D78;
 
     /******************************************************************************************************************/
-    /*** Data Provider Addresses                                                                                    ***/
+    /*** SparkLend - Data Provider Addresses                                                                        ***/
     /******************************************************************************************************************/
 
     address internal constant PROTOCOL_DATA_PROVIDER     = 0x2a002054A06546bB5a264D57A81347e23Af91D18;

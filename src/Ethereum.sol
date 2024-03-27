@@ -16,10 +16,11 @@ library Ethereum {
     /*** SparkDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_PROXY = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
+    address internal constant META_MORPHO_VAULT = 0x73e65DBD630f90604062f6E02fAb9138e713edD9;
+    address internal constant SPARK_PROXY      = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
 
     /******************************************************************************************************************/
-    /*** Core Protocol Addresses                                                                                    ***/
+    /*** SparkLend - Core Protocol Addresses                                                                        ***/
     /******************************************************************************************************************/
 
     address internal constant AAVE_ORACLE                      = 0x8105f69D9C41644c6A0803fDA7D03Aa70996cFD9;
@@ -36,7 +37,7 @@ library Ethereum {
     address internal constant WETH_GATEWAY                     = 0xBD7D6a9ad7865463DE44B05F04559f65e3B11704;
 
     /******************************************************************************************************************/
-    /*** Reserve Token Addresses                                                                                    ***/
+    /*** SparkLend - Reserve Token Addresses                                                                        ***/
     /******************************************************************************************************************/
 
     address internal constant DAI                   = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
@@ -85,7 +86,18 @@ library Ethereum {
     address internal constant WSTETH_DEBT_TOKEN        = 0xd5c3E3B566a42A6110513Ac7670C1a86D76E13E6;
 
     /******************************************************************************************************************/
-    /*** Implementation Addresses                                                                                   ***/
+    /*** SparkLend - Auxiliary Protocol Addresses                                                                   ***/
+    /******************************************************************************************************************/
+
+    address internal constant CAP_AUTOMATOR    = 0x2276f52afba7Cf2525fd0a050DF464AC8532d0ef;
+    address internal constant FREEZER_MOM      = 0xFA36c12Bc307b40c701D65d8FE8F88cCEdE2277a;
+    address internal constant SPELL_FREEZE_ALL = 0xA67d62f75F8D11395eE120CA8390Ab3bF01f0b8A;
+    address internal constant SPELL_FREEZE_DAI = 0x0F9149c4d6018A5999AdA5b592E372845cfeC725;
+    address internal constant SPELL_PAUSE_ALL  = 0x216738c7B1E83cC1A1FFcD3433226B0a3B174484;
+    address internal constant SPELL_PAUSE_DAI  = 0x1B94E2F3818E1D657bE2A62D37560514b52DB17F;
+
+    /******************************************************************************************************************/
+    /*** SparkLend - Implementation Addresses                                                                       ***/
     /******************************************************************************************************************/
 
     address internal constant A_TOKEN_IMPL             = 0x6175ddEc3B9b38c88157C10A01ed4A3fa8639cC6;
@@ -98,7 +110,7 @@ library Ethereum {
     address internal constant VARIABLE_DEBT_TOKEN_IMPL = 0x86C71796CcDB31c3997F8Ec5C2E3dB3e9e40b985;
 
     /******************************************************************************************************************/
-    /*** Config Engine Addresses                                                                                    ***/
+    /*** SparkLend - Config Engine Addresses                                                                        ***/
     /******************************************************************************************************************/
 
     address internal constant PROXY_ADMIN               = 0x883A82BDd3d07ae6ACfD151020faD350df25087e;
@@ -107,7 +119,7 @@ library Ethereum {
     address internal constant TRANSPARENT_PROXY_FACTORY = 0x777803CbDD89D5D5Bc1DdD2151B51b0B07F6bf37;
 
     /******************************************************************************************************************/
-    /*** Data Provider Addresses                                                                                    ***/
+    /*** SparkLend - Data Provider Addresses                                                                        ***/
     /******************************************************************************************************************/
 
     address internal constant PROTOCOL_DATA_PROVIDER     = 0xFc21d6d146E6086B8359705C8b28512a983db0cb;
