@@ -38,10 +38,10 @@ library Ethereum {
     /*** Morpho Addresses                                                                                           ***/
     /******************************************************************************************************************/
 
-    address internal constant MORPHO_DEFAULT_IRM      = 0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC;
-    address internal constant MORPHO_STETH_ETH_ORACLE = 0x86392dC19c0b719886221c78AB11eb8Cf5c52812;
-    address internal constant MORPHO_VAULT_DAI_1      = 0x73e65DBD630f90604062f6E02fAb9138e713edD9;
-    address internal constant MORPHO_WBTC_BTC_ORACLE  = 0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23;
+    address internal constant MORPHO_DEFAULT_IRM  = 0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC;
+    address internal constant MORPHO_SUSDE_ORACLE = 0x5D916980D5Ae1737a8330Bf24dF812b2911Aae25;
+    address internal constant MORPHO_USDE_ORACLE  = 0xaE4750d0813B5E37A51f7629beedd72AF1f9cA35;
+    address internal constant MORPHO_VAULT_DAI_1  = 0x73e65DBD630f90604062f6E02fAb9138e713edD9;
 
     /******************************************************************************************************************/
     /*** SparkLend - Core Protocol Addresses                                                                        ***/
