@@ -4,10 +4,26 @@ pragma solidity ^0.8.13;
 library Ethereum {
 
     /******************************************************************************************************************/
+    /*** Token Addresses                                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant DAI    = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
+    address internal constant GNO    = 0x6810e776880C02933D47DB1b9fc05908e5386b96;
+    address internal constant MKR    = 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2;
+    address internal constant RETH   = 0xae78736Cd615f374D3085123A210448E74Fc6393;
+    address internal constant SDAI   = 0x83F20F44975D03b1b09e64809B757c47f942BEeA;
+    address internal constant SUSDE  = 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497;
+    address internal constant USDC   = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
+    address internal constant USDE   = 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3;
+    address internal constant USDT   = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
+    address internal constant WBTC   = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
+    address internal constant WETH   = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
+    address internal constant WSTETH = 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0;
+
+    /******************************************************************************************************************/
     /*** MakerDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant MKR         = 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2;
     address internal constant PAUSE_PROXY = 0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB;
     address internal constant POT         = 0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7;
     address internal constant VAT         = 0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B;
@@ -16,8 +32,16 @@ library Ethereum {
     /*** SparkDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant META_MORPHO_VAULT = 0x73e65DBD630f90604062f6E02fAb9138e713edD9;
-    address internal constant SPARK_PROXY      = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
+    address internal constant SPARK_PROXY = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
+
+    /******************************************************************************************************************/
+    /*** Morpho Addresses                                                                                           ***/
+    /******************************************************************************************************************/
+
+    address internal constant MORPHO_DEFAULT_IRM      = 0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC;
+    address internal constant MORPHO_STETH_ETH_ORACLE = 0x86392dC19c0b719886221c78AB11eb8Cf5c52812;
+    address internal constant MORPHO_VAULT_DAI_1      = 0x73e65DBD630f90604062f6E02fAb9138e713edD9;
+    address internal constant MORPHO_WBTC_BTC_ORACLE  = 0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23;
 
     /******************************************************************************************************************/
     /*** SparkLend - Core Protocol Addresses                                                                        ***/
@@ -40,47 +64,38 @@ library Ethereum {
     /*** SparkLend - Reserve Token Addresses                                                                        ***/
     /******************************************************************************************************************/
 
-    address internal constant DAI                   = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
     address internal constant DAI_ATOKEN            = 0x4DEDf26112B3Ec8eC46e7E31EA5e123490B05B8B;
     address internal constant DAI_STABLE_DEBT_TOKEN = 0xfe2B7a7F4cC0Fb76f7Fc1C6518D586F1e4559176;
     address internal constant DAI_DEBT_TOKEN        = 0xf705d2B7e92B3F38e6ae7afaDAA2fEE110fE5914;
 
-    address internal constant GNO                   = 0x6810e776880C02933D47DB1b9fc05908e5386b96;
     address internal constant GNO_ATOKEN            = 0x7b481aCC9fDADDc9af2cBEA1Ff2342CB1733E50F;
     address internal constant GNO_STABLE_DEBT_TOKEN = 0xbf13910620722D4D4F8A03962894EB3335Bf4FaE;
     address internal constant GNO_DEBT_TOKEN        = 0x57a2957651DA467fCD4104D749f2F3684784c25a;
 
-    address internal constant RETH                   = 0xae78736Cd615f374D3085123A210448E74Fc6393;
     address internal constant RETH_ATOKEN            = 0x9985dF20D7e9103ECBCeb16a84956434B6f06ae8;
     address internal constant RETH_STABLE_DEBT_TOKEN = 0xa9a4037295Ea3a168DC3F65fE69FdA524d52b3e1;
     address internal constant RETH_DEBT_TOKEN        = 0xBa2C8F2eA5B56690bFb8b709438F049e5Dd76B96;
 
-    address internal constant SDAI                   = 0x83F20F44975D03b1b09e64809B757c47f942BEeA;
     address internal constant SDAI_ATOKEN            = 0x78f897F0fE2d3B5690EbAe7f19862DEacedF10a7;
     address internal constant SDAI_STABLE_DEBT_TOKEN = 0xEc6C6aBEd4DC03299EFf82Ac8A0A83643d3cB335;
     address internal constant SDAI_DEBT_TOKEN        = 0xaBc57081C04D921388240393ec4088Aa47c6832B;
 
-    address internal constant USDC                   = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
     address internal constant USDC_ATOKEN            = 0x377C3bd93f2a2984E1E7bE6A5C22c525eD4A4815;
     address internal constant USDC_STABLE_DEBT_TOKEN = 0x887Ac022983Ff083AEb623923789052A955C6798;
     address internal constant USDC_DEBT_TOKEN        = 0x7B70D04099CB9cfb1Db7B6820baDAfB4C5C70A67;
 
-    address internal constant USDT                   = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
     address internal constant USDT_ATOKEN            = 0xe7dF13b8e3d6740fe17CBE928C7334243d86c92f;
     address internal constant USDT_STABLE_DEBT_TOKEN = 0x0Dae62F953Ceb2E969fB4dE85f3F9074fa920776;
     address internal constant USDT_DEBT_TOKEN        = 0x529b6158d1D2992E3129F7C69E81a7c677dc3B12;
 
-    address internal constant WBTC                   = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
     address internal constant WBTC_ATOKEN            = 0x4197ba364AE6698015AE5c1468f54087602715b2;
     address internal constant WBTC_STABLE_DEBT_TOKEN = 0x4b29e6cBeE62935CfC92efcB3839eD2c2F35C1d9;
     address internal constant WBTC_DEBT_TOKEN        = 0xf6fEe3A8aC8040C3d6d81d9A4a168516Ec9B51D2;
 
-    address internal constant WETH                   = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
     address internal constant WETH_ATOKEN            = 0x59cD1C87501baa753d0B5B5Ab5D8416A45cD71DB;
     address internal constant WETH_STABLE_DEBT_TOKEN = 0x3c6b93D38ffA15ea995D1BC950d5D0Fa6b22bD05;
     address internal constant WETH_DEBT_TOKEN        = 0x2e7576042566f8D6990e07A1B61Ad1efd86Ae70d;
 
-    address internal constant WSTETH                   = 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0;
     address internal constant WSTETH_ATOKEN            = 0x12B54025C112Aa61fAce2CDB7118740875A566E9;
     address internal constant WSTETH_STABLE_DEBT_TOKEN = 0x9832D969a0c8662D98fFf334A4ba7FeE62b109C2;
     address internal constant WSTETH_DEBT_TOKEN        = 0xd5c3E3B566a42A6110513Ac7670C1a86D76E13E6;
@@ -89,8 +104,14 @@ library Ethereum {
     /*** SparkLend - Auxiliary Protocol Addresses                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant CAP_AUTOMATOR    = 0x2276f52afba7Cf2525fd0a050DF464AC8532d0ef;
-    address internal constant FREEZER_MOM      = 0xFA36c12Bc307b40c701D65d8FE8F88cCEdE2277a;
+    address internal constant CAP_AUTOMATOR      = 0x2276f52afba7Cf2525fd0a050DF464AC8532d0ef;
+    address internal constant FREEZER_MOM        = 0xFA36c12Bc307b40c701D65d8FE8F88cCEdE2277a;
+    address internal constant KILL_SWITCH_ORACLE = 0x909A86f78e1cdEd68F9c2Fe2c9CD922c401abe82;
+
+    /******************************************************************************************************************/
+    /*** SparkLend - Emergency Spells                                                                               ***/
+    /******************************************************************************************************************/
+
     address internal constant SPELL_FREEZE_ALL = 0xA67d62f75F8D11395eE120CA8390Ab3bF01f0b8A;
     address internal constant SPELL_FREEZE_DAI = 0x0F9149c4d6018A5999AdA5b592E372845cfeC725;
     address internal constant SPELL_PAUSE_ALL  = 0x216738c7B1E83cC1A1FFcD3433226B0a3B174484;
