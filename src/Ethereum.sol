@@ -152,12 +152,12 @@ library Ethereum {
     /*** SparkLend - Library Addresses                                                                              ***/
     /******************************************************************************************************************/
 
-    address internal constant BORROW_LOGIC      = 0x8f6bd9A7Fb4E45b55101489f00cB48A60AD202b6;
-    address internal constant BRIDGE_LOGIC      = 0xaA0bbd201C77B7bc67AB41CA2b138EF20ca0931a;
-    address internal constant EMODE_LOGIC       = 0x1EF5E645Fb31a441180E97d074B6fe73e2Af5044;
-    address internal constant FLASH_LOAN_LOGIC  = 0xCb0e499954aE4277d0dB0E13A938b73745eBE9bA;
-    address internal constant LIQUIDATION_LOGIC = 0x82Ba85d3E0D48758A9A4505C6ACf0e95fFDCBE02;
-    address internal constant POOL_LOGIC        = 0xc1e10a09791386B49607134AdE3824Ff7BC36407;
-    address internal constant SUPPLY_LOGIC      = 0xF189539D2bf5bF5320A2E5D7768b32FaA7B93BAE;
+    address internal constant BORROW_LOGIC      = 0x4662C88C542F0954F8CccCDE4542eEc32d7E7e9a;
+    address internal constant BRIDGE_LOGIC      = 0x2C54924711E479E639032704146b865E12f0C6D1;
+    address internal constant EMODE_LOGIC       = 0x2Ad00613A66D71Ff2B0607fB3C4632C47a50DADe;
+    address internal constant FLASH_LOAN_LOGIC  = 0x7f44e1c1dE70059D7cc483378BEFeE2a030CE247;
+    address internal constant LIQUIDATION_LOGIC = 0x6aEa92693C527bC2c7B3171C6f2598d67d619088;
+    address internal constant POOL_LOGIC        = 0x1761a0f74032963B6Ad0774C5EBF4586c0bD7604;
+    address internal constant SUPPLY_LOGIC      = 0x46256841e36b7557BB8e4c706beD38b17A9EB2c1;
 
 }
