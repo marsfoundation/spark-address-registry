@@ -27,6 +27,7 @@ library Ethereum {
     address internal constant PAUSE_PROXY = 0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB;
     address internal constant POT         = 0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7;
     address internal constant VAT         = 0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B;
+    address internal constant CHIEF       = 0x0a3f6849f78076aefaDf113F5BED87720274dDC0;
 
     /******************************************************************************************************************/
     /*** SparkDAO Addresses                                                                                         ***/
