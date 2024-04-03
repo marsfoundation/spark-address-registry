@@ -148,4 +148,16 @@ library Ethereum {
     address internal constant UI_POOL_DATA_PROVIDER      = 0xF028c2F4b19898718fD0F77b9b881CbfdAa5e8Bb;
     address internal constant WALLET_BALANCE_PROVIDER    = 0xd2AeF86F51F92E8e49F42454c287AE4879D1BeDc;
 
+    /******************************************************************************************************************/
+    /*** SparkLend - Library Addresses                                                                              ***/
+    /******************************************************************************************************************/
+
+    address internal constant BORROW_LOGIC      = 0x8f6bd9A7Fb4E45b55101489f00cB48A60AD202b6;
+    address internal constant BRIDGE_LOGIC      = 0xaA0bbd201C77B7bc67AB41CA2b138EF20ca0931a;
+    address internal constant EMODE_LOGIC       = 0x1EF5E645Fb31a441180E97d074B6fe73e2Af5044;
+    address internal constant FLASH_LOAN_LOGIC  = 0xCb0e499954aE4277d0dB0E13A938b73745eBE9bA;
+    address internal constant LIQUIDATION_LOGIC = 0x82Ba85d3E0D48758A9A4505C6ACf0e95fFDCBE02;
+    address internal constant POOL_LOGIC        = 0xc1e10a09791386B49607134AdE3824Ff7BC36407;
+    address internal constant SUPPLY_LOGIC      = 0xF189539D2bf5bF5320A2E5D7768b32FaA7B93BAE;
+
 }
