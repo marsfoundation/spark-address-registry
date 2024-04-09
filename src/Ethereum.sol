@@ -161,4 +161,11 @@ library Ethereum {
     address internal constant POOL_LOGIC        = 0x1761a0f74032963B6Ad0774C5EBF4586c0bD7604;
     address internal constant SUPPLY_LOGIC      = 0x46256841e36b7557BB8e4c706beD38b17A9EB2c1;
 
+    /******************************************************************************************************************/
+    /*** L2 Forwarders                                                                                              ***/
+    /******************************************************************************************************************/
+
+    address internal constant DSR_FORWARDER_OPTIMISM = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
+    address internal constant DSR_FORWARDER_BASE     = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
+
 }
