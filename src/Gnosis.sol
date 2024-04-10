@@ -11,6 +11,10 @@ library Gnosis {
     address internal constant WETH   = 0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1;
     address internal constant WSTETH = 0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6;
     address internal constant WXDAI  = 0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d;
+    address internal constant SXDAI  = 0xaf204776c7245bF4147c2612BF6e5972Ee483701;
+    address internal constant USDC   = 0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83;
+    address internal constant USDT   = 0x4ECaBa5870353805a9F068101A40E0f32ed605C6;
+    address internal constant EURE   = 0xcB444e90D8198415266c6a2724b7900fb12FC56E;
 
     /******************************************************************************************************************/
     /*** SparkLend - Core Protocol Addresses                                                                        ***/
@@ -48,6 +52,22 @@ library Gnosis {
     address internal constant WXDAI_STABLE_DEBT_TOKEN = 0xab1B62A1346Acf534b581684940E2FD781F2EA22;
     address internal constant WXDAI_DEBT_TOKEN        = 0x868ADfDf12A86422524EaB6978beAE08A0008F37;
 
+    address internal constant SXDAI_ATOKEN            = 0xE877b96caf9f180916bF2B5Ce7Ea8069e0123182;
+    address internal constant SXDAI_STABLE_DEBT_TOKEN = 0x2cF710377b3576287Be7cf352FF75D4472902789;
+    address internal constant SXDAI_DEBT_TOKEN        = 0x1022E390E2457A78E18AEEE0bBf0E96E482EeE19;
+
+    address internal constant USDC_ATOKEN            = 0x5850D127a04ed0B4F1FCDFb051b3409FB9Fe6B90;
+    address internal constant USDC_STABLE_DEBT_TOKEN = 0x40BF0Bf6AECeE50eCE10C74E81a52C654A467ae4;
+    address internal constant USDC_DEBT_TOKEN        = 0xBC4f20DAf4E05c17E93676D2CeC39769506b8219;
+
+    address internal constant USDT_ATOKEN            = 0x08B0cAebE352c3613302774Cd9B82D08afd7bDC4;
+    address internal constant USDT_STABLE_DEBT_TOKEN = 0x4cB3F681B5e393947BD1e5cAE84764f5892923C2;
+    address internal constant USDT_DEBT_TOKEN        = 0x3A98aBC6F46CA2Fc6c7d06eD02184D63C55e19B2;
+
+    address internal constant EURE_ATOKEN            = 0x6dc304337BF3EB397241d1889cAE7da638e6e782;
+    address internal constant EURE_STABLE_DEBT_TOKEN = 0x80F87B8F9c1199e468923D8EE87cEE311690FDA6;
+    address internal constant EURE_DEBT_TOKEN        = 0x0b33480d3FbD1E2dBE88c82aAbe191D7473759D5;
+
     /******************************************************************************************************************/
     /*** SparkLend - Implementation Addresses                                                                       ***/
     /******************************************************************************************************************/
@@ -55,7 +75,7 @@ library Gnosis {
     address internal constant A_TOKEN_IMPL             = 0x856900aa78e856a5df1a2665eE3a66b2487cD68f;
     address internal constant INCENTIVES_IMPL          = 0x764b4AB9bCA18eB633d92368F725765Ebb8f047C;
     address internal constant POOL_CONFIGURATOR_IMPL   = 0x6175ddEc3B9b38c88157C10A01ed4A3fa8639cC6;
-    address internal constant POOL_IMPL                = 0xa8fC41696F2a230b03F77d258Db39069e9e55F56;
+    address internal constant POOL_IMPL                = 0xCF86A65779e88bedfF0319FE13aE2B47358EB1bF;
     address internal constant STABLE_DEBT_TOKEN_IMPL   = 0x4370D3b6C9588E02ce9D22e684387859c7Ff5b34;
     address internal constant TREASURY_IMPL            = 0x571501be53711c372cE69De51865dD34B87698D5;
     address internal constant VARIABLE_DEBT_TOKEN_IMPL = 0x0ee554F6A1f7a4Cb4f82D4C124DdC2AD3E37fde1;
