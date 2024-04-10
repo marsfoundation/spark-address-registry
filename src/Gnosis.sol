@@ -11,6 +11,10 @@ library Gnosis {
     address internal constant WETH   = 0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1;
     address internal constant WSTETH = 0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6;
     address internal constant WXDAI  = 0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d;
+    address internal constant SXDAI  = 0xaf204776c7245bF4147c2612BF6e5972Ee483701;
+    address internal constant USDC   = 0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83;
+    address internal constant USDT   = 0x4ECaBa5870353805a9F068101A40E0f32ed605C6;
+    address internal constant EURE   = 0xcB444e90D8198415266c6a2724b7900fb12FC56E;
 
     /******************************************************************************************************************/
     /*** SparkLend - Core Protocol Addresses                                                                        ***/
