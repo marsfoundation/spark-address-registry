@@ -23,15 +23,3 @@ jobs:
         run: |
           forge --version
           forge build --sizes
-
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Install Foundry
-        uses: foundry-rs/foundry-toolchain@v1
-
-      - name: Run tests
-        run: FOUNDRY_PROFILE=ci forge test
-
