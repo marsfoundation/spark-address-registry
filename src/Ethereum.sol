@@ -106,17 +106,18 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant CAP_AUTOMATOR      = 0x2276f52afba7Cf2525fd0a050DF464AC8532d0ef;
-    address internal constant FREEZER_MOM        = 0xFA36c12Bc307b40c701D65d8FE8F88cCEdE2277a;
+    address internal constant FREEZER_MOM        = 0x237e3985dD7E373F2ec878EC1Ac48A228Cf2e7a3;
     address internal constant KILL_SWITCH_ORACLE = 0x909A86f78e1cdEd68F9c2Fe2c9CD922c401abe82;
 
     /******************************************************************************************************************/
     /*** SparkLend - Emergency Spells                                                                               ***/
     /******************************************************************************************************************/
 
-    address internal constant SPELL_FREEZE_ALL = 0xA67d62f75F8D11395eE120CA8390Ab3bF01f0b8A;
-    address internal constant SPELL_FREEZE_DAI = 0x0F9149c4d6018A5999AdA5b592E372845cfeC725;
-    address internal constant SPELL_PAUSE_ALL  = 0x216738c7B1E83cC1A1FFcD3433226B0a3B174484;
-    address internal constant SPELL_PAUSE_DAI  = 0x1B94E2F3818E1D657bE2A62D37560514b52DB17F;
+    address internal constant SPELL_FREEZE_ALL       = 0x9e2890BF7f8D5568Cc9e5092E67Ba00C8dA3E97f;
+    address internal constant SPELL_FREEZE_DAI       = 0xa2039bef2c5803d66E4e68F9E23a942E350b938c;
+    address internal constant SPELL_PAUSE_ALL        = 0x425b0de240b4c2DC45979DB782A355D090Dc4d37;
+    address internal constant SPELL_PAUSE_DAI        = 0xCacB88e39112B56278db25b423441248cfF94241;
+    address internal constant SPELL_REMOVE_MULTISIG  = 0xE47AB4919F6F5459Dcbbfbe4264BD4630c0169A9;
 
     /******************************************************************************************************************/
     /*** SparkLend - Implementation Addresses                                                                       ***/
@@ -126,7 +127,7 @@ library Ethereum {
     address internal constant DAI_TREASURY_IMPL        = 0xF1E57711Eb5F897b415de1aEFCB64d9BAe58D312;
     address internal constant INCENTIVES_IMPL          = 0x0ee554F6A1f7a4Cb4f82D4C124DdC2AD3E37fde1;
     address internal constant POOL_CONFIGURATOR_IMPL   = 0xF7b656C95420194b79687fc86D965FB51DA4799F;
-    address internal constant POOL_IMPL                = 0xB40f6d584081ac2b0FD84C846dBa3C1417889304;
+    address internal constant POOL_IMPL                = 0x5aE329203E00f76891094DcfedD5Aca082a50e1b;
     address internal constant STABLE_DEBT_TOKEN_IMPL   = 0x026a5B6114431d8F3eF2fA0E1B2EDdDccA9c540E;
     address internal constant TREASURY_IMPL            = 0xF1E57711Eb5F897b415de1aEFCB64d9BAe58D312;
     address internal constant VARIABLE_DEBT_TOKEN_IMPL = 0x86C71796CcDB31c3997F8Ec5C2E3dB3e9e40b985;
@@ -167,5 +168,12 @@ library Ethereum {
 
     address internal constant DSR_FORWARDER_OPTIMISM = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
     address internal constant DSR_FORWARDER_BASE     = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
+
+    /******************************************************************************************************************/
+    /*** Multisigs                                                                                                  ***/
+    /******************************************************************************************************************/
+
+    address internal constant MULTISIG_FREEZER = 0x44efFc473e81632B12486866AA1678edbb7BEeC3;
+    address internal constant MULTISIG_REWARDS = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
 
 }
