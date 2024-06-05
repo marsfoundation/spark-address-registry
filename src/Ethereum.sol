@@ -176,4 +176,10 @@ library Ethereum {
     address internal constant MULTISIG_FREEZER = 0x44efFc473e81632B12486866AA1678edbb7BEeC3;
     address internal constant MULTISIG_REWARDS = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
 
+    /******************************************************************************************************************/
+    /*** User Action Addresses                                                                                      ***/
+    /******************************************************************************************************************/
+
+    address internal constant USER_ACTIONS_PSM_VARIANT1 = 0x52d298Ff9e77E71C2EB1992260520E7b15257d99;
+
 }
