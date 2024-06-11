@@ -168,6 +168,7 @@ library Ethereum {
 
     address internal constant DSR_FORWARDER_OPTIMISM = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
     address internal constant DSR_FORWARDER_BASE     = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
+    address internal constant DSR_FORWARDER_ARBITRUM = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
 
     /******************************************************************************************************************/
     /*** Multisigs                                                                                                  ***/
