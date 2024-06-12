@@ -98,12 +98,4 @@ library Gnosis {
     address internal constant UI_POOL_DATA_PROVIDER      = 0xF028c2F4b19898718fD0F77b9b881CbfdAa5e8Bb;
     address internal constant WALLET_BALANCE_PROVIDER    = 0xd2AeF86F51F92E8e49F42454c287AE4879D1BeDc;
 
-    /******************************************************************************************************************/
-    /*** Bridging Addresses                                                                                         ***/
-    /******************************************************************************************************************/
-
-    address constant AMB_EXECUTOR = 0xc4218C1127cB24a0D6c1e7D25dc34e10f2625f5A;
-    address constant L1_AMB       = 0x4C36d2919e407f0Cc2Ee3c993ccF8ac26d9CE64e;
-    address constant L2_AMB       = 0x75Df5AF045d91108662D8080fD1FEFAd6aA0bb59;
-
 }
