@@ -13,6 +13,7 @@ library Gnosis {
     address internal constant WXDAI  = 0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d;
     address internal constant SXDAI  = 0xaf204776c7245bF4147c2612BF6e5972Ee483701;
     address internal constant USDC   = 0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83;
+    address internal constant USDCE  = 0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0;
     address internal constant USDT   = 0x4ECaBa5870353805a9F068101A40E0f32ed605C6;
     address internal constant EURE   = 0xcB444e90D8198415266c6a2724b7900fb12FC56E;
 
@@ -59,6 +60,10 @@ library Gnosis {
     address internal constant USDC_ATOKEN            = 0x5850D127a04ed0B4F1FCDFb051b3409FB9Fe6B90;
     address internal constant USDC_STABLE_DEBT_TOKEN = 0x40BF0Bf6AECeE50eCE10C74E81a52C654A467ae4;
     address internal constant USDC_DEBT_TOKEN        = 0xBC4f20DAf4E05c17E93676D2CeC39769506b8219;
+
+    address internal constant USDCE_ATOKEN            = 0xA34DB0ee8F84C4B90ed268dF5aBbe7Dcd3c277ec;
+    address internal constant USDCE_STABLE_DEBT_TOKEN = 0xC5dfde524371F9424c81F453260B2CCd24936c15;
+    address internal constant USDCE_DEBT_TOKEN        = 0x397b97b572281d0b3e3513BD4A7B38050a75962b;
 
     address internal constant USDT_ATOKEN            = 0x08B0cAebE352c3613302774Cd9B82D08afd7bDC4;
     address internal constant USDT_STABLE_DEBT_TOKEN = 0x4cB3F681B5e393947BD1e5cAE84764f5892923C2;
