@@ -20,6 +20,7 @@ library Ethereum {
     address internal constant WEETH  = 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee;
     address internal constant WETH   = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
     address internal constant WSTETH = 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0;
+    address internal constant CBBTC  = 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf;
 
     /******************************************************************************************************************/
     /*** MakerDAO Addresses                                                                                         ***/
@@ -105,6 +106,10 @@ library Ethereum {
     address internal constant WSTETH_ATOKEN            = 0x12B54025C112Aa61fAce2CDB7118740875A566E9;
     address internal constant WSTETH_STABLE_DEBT_TOKEN = 0x9832D969a0c8662D98fFf334A4ba7FeE62b109C2;
     address internal constant WSTETH_DEBT_TOKEN        = 0xd5c3E3B566a42A6110513Ac7670C1a86D76E13E6;
+
+    address internal constant CBBTC_ATOKEN            = 0xb3973D459df38ae57797811F2A1fd061DA1BC123;
+    address internal constant CBBTC_STABLE_DEBT_TOKEN = 0x26a76E2fa1EaDbe7C30f0c333059Bcc3642c28d2;
+    address internal constant CBBTC_DEBT_TOKEN        = 0x661fE667D2103eb52d3632a3eB2cAbd123F27938;
 
     /******************************************************************************************************************/
     /*** SparkLend - Auxiliary Protocol Addresses                                                                   ***/
