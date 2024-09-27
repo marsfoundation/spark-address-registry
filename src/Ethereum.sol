@@ -20,6 +20,7 @@ library Ethereum {
     address internal constant WEETH  = 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee;
     address internal constant WETH   = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
     address internal constant WSTETH = 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0;
+    address internal constant CBBTC  = 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf;
 
     /******************************************************************************************************************/
     /*** MakerDAO Addresses                                                                                         ***/
@@ -106,6 +107,10 @@ library Ethereum {
     address internal constant WSTETH_STABLE_DEBT_TOKEN = 0x9832D969a0c8662D98fFf334A4ba7FeE62b109C2;
     address internal constant WSTETH_DEBT_TOKEN        = 0xd5c3E3B566a42A6110513Ac7670C1a86D76E13E6;
 
+    address internal constant CBBTC_ATOKEN            = 0xb3973D459df38ae57797811F2A1fd061DA1BC123;
+    address internal constant CBBTC_STABLE_DEBT_TOKEN = 0x26a76E2fa1EaDbe7C30f0c333059Bcc3642c28d2;
+    address internal constant CBBTC_DEBT_TOKEN        = 0x661fE667D2103eb52d3632a3eB2cAbd123F27938;
+
     /******************************************************************************************************************/
     /*** SparkLend - Auxiliary Protocol Addresses                                                                   ***/
     /******************************************************************************************************************/
@@ -171,9 +176,12 @@ library Ethereum {
     /*** L2 Forwarders                                                                                              ***/
     /******************************************************************************************************************/
 
-    address internal constant DSR_FORWARDER_OPTIMISM = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
-    address internal constant DSR_FORWARDER_BASE     = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
-    address internal constant DSR_FORWARDER_ARBITRUM = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
+    address internal constant DSR_FORWARDER_OPTIMISM    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
+    address internal constant DSR_FORWARDER_BASE        = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
+    address internal constant DSR_FORWARDER_ARBITRUM    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
+    address internal constant DSR_FORWARDER_WORLD_CHAIN = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;
+
+    address internal constant SSR_FORWARDER_BASE = 0xB2833392527f41262eB0E3C7b47AFbe030ef188E;
 
     /******************************************************************************************************************/
     /*** Multisigs                                                                                                  ***/
