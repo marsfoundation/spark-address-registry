@@ -7,29 +7,32 @@ library Ethereum {
     /*** Token Addresses                                                                                            ***/
     /******************************************************************************************************************/
 
+    address internal constant CBBTC  = 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf;
     address internal constant DAI    = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
     address internal constant GNO    = 0x6810e776880C02933D47DB1b9fc05908e5386b96;
     address internal constant MKR    = 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2;
     address internal constant RETH   = 0xae78736Cd615f374D3085123A210448E74Fc6393;
     address internal constant SDAI   = 0x83F20F44975D03b1b09e64809B757c47f942BEeA;
     address internal constant SUSDE  = 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497;
+    address internal constant SUSDS  = 0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD;
     address internal constant USDC   = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
     address internal constant USDE   = 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3;
+    address internal constant USDS   = 0xdC035D45d973E3EC169d2276DDab16f1e407384F;
     address internal constant USDT   = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
     address internal constant WBTC   = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
     address internal constant WEETH  = 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee;
     address internal constant WETH   = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
     address internal constant WSTETH = 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0;
-    address internal constant CBBTC  = 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf;
 
     /******************************************************************************************************************/
     /*** MakerDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
+    address internal constant CHIEF       = 0x0a3f6849f78076aefaDf113F5BED87720274dDC0;
+    address internal constant DAI_USDS    = 0x3225737a9Bbb6473CB4a45b7244ACa2BeFdB276A;
     address internal constant PAUSE_PROXY = 0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB;
     address internal constant POT         = 0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7;
     address internal constant VAT         = 0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B;
-    address internal constant CHIEF       = 0x0a3f6849f78076aefaDf113F5BED87720274dDC0;
 
     /******************************************************************************************************************/
     /*** SparkDAO Addresses                                                                                         ***/
