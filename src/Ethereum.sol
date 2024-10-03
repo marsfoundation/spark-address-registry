@@ -179,7 +179,7 @@ library Ethereum {
     /*** Cross-Domain Addresses                                                                                     ***/
     /******************************************************************************************************************/
 
-    address internal constant CCTP_MESSENGER = 0xBd3fa81B58Ba92a82136038B25aDec7066af3155;
+    address internal constant CCTP_TOKEN_MESSENGER = 0xBd3fa81B58Ba92a82136038B25aDec7066af3155;
 
     address internal constant DSR_FORWARDER_OPTIMISM    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
     address internal constant DSR_FORWARDER_BASE        = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
