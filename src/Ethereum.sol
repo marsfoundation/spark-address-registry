@@ -70,6 +70,10 @@ library Ethereum {
     /*** SparkLend - Reserve Token Addresses                                                                        ***/
     /******************************************************************************************************************/
 
+    address internal constant CBBTC_ATOKEN            = 0xb3973D459df38ae57797811F2A1fd061DA1BC123;
+    address internal constant CBBTC_STABLE_DEBT_TOKEN = 0x26a76E2fa1EaDbe7C30f0c333059Bcc3642c28d2;
+    address internal constant CBBTC_DEBT_TOKEN        = 0x661fE667D2103eb52d3632a3eB2cAbd123F27938;
+
     address internal constant DAI_ATOKEN             = 0x4DEDf26112B3Ec8eC46e7E31EA5e123490B05B8B;
     address internal constant DAI_STABLE_DEBT_TOKEN  = 0xfe2B7a7F4cC0Fb76f7Fc1C6518D586F1e4559176;
     address internal constant DAI_DEBT_TOKEN         = 0xf705d2B7e92B3F38e6ae7afaDAA2fEE110fE5914;
@@ -109,10 +113,6 @@ library Ethereum {
     address internal constant WSTETH_ATOKEN            = 0x12B54025C112Aa61fAce2CDB7118740875A566E9;
     address internal constant WSTETH_STABLE_DEBT_TOKEN = 0x9832D969a0c8662D98fFf334A4ba7FeE62b109C2;
     address internal constant WSTETH_DEBT_TOKEN        = 0xd5c3E3B566a42A6110513Ac7670C1a86D76E13E6;
-
-    address internal constant CBBTC_ATOKEN            = 0xb3973D459df38ae57797811F2A1fd061DA1BC123;
-    address internal constant CBBTC_STABLE_DEBT_TOKEN = 0x26a76E2fa1EaDbe7C30f0c333059Bcc3642c28d2;
-    address internal constant CBBTC_DEBT_TOKEN        = 0x661fE667D2103eb52d3632a3eB2cAbd123F27938;
 
     /******************************************************************************************************************/
     /*** SparkLend - Auxiliary Protocol Addresses                                                                   ***/
@@ -176,8 +176,10 @@ library Ethereum {
     address internal constant SUPPLY_LOGIC      = 0x46256841e36b7557BB8e4c706beD38b17A9EB2c1;
 
     /******************************************************************************************************************/
-    /*** L2 Forwarders                                                                                              ***/
+    /*** Cross-Domain Addresses                                                                                     ***/
     /******************************************************************************************************************/
+
+    address internal constant CCTP_TOKEN_MESSENGER = 0xBd3fa81B58Ba92a82136038B25aDec7066af3155;
 
     address internal constant DSR_FORWARDER_OPTIMISM    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
     address internal constant DSR_FORWARDER_BASE        = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
