@@ -52,15 +52,6 @@ library Ethereum {
     address internal constant ALLOCATOR_VAULT	 = 0x691a6c29e9e96dd897718305427Ad5D534db16BA;
 
     /******************************************************************************************************************/
-    /*** SkyLink Bridge Addresses                                                                                   ***/
-    /******************************************************************************************************************/
-
-    address internal constant ESCROW	     = 0x7F311a4D48377030bD810395f4CCfC03bdbe9Ef3;
-    address internal constant L1_BRIDGE	     = 0xA5874756416Fa632257eEA380CAbd2E87cED352A;
-    address internal constant L1_BRIDGE_IMPL = 0xaeFd31c2e593Dc971f9Cb42cBbD5d4AD7F1970b6;
-    address internal constant L1_GOV_RELAY   = 0x1Ee0AE8A993F2f5abDB51EAF4AC2876202b65c3b;
-
-    /******************************************************************************************************************/
     /*** Morpho Addresses                                                                                           ***/
     /******************************************************************************************************************/
 
@@ -201,12 +192,21 @@ library Ethereum {
 
     address internal constant CCTP_TOKEN_MESSENGER = 0xBd3fa81B58Ba92a82136038B25aDec7066af3155;
 
-    address internal constant DSR_FORWARDER_OPTIMISM    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
-    address internal constant DSR_FORWARDER_BASE        = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
     address internal constant DSR_FORWARDER_ARBITRUM    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
+    address internal constant DSR_FORWARDER_OPTIMISM    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
     address internal constant DSR_FORWARDER_WORLD_CHAIN = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;
 
+    /******************************************************************************************************************/
+    /*** Base Addresses                                                                                             ***/
+    /******************************************************************************************************************/
+
+    address internal constant DSR_FORWARDER_BASE = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
     address internal constant SSR_FORWARDER_BASE = 0xB2833392527f41262eB0E3C7b47AFbe030ef188E;
+
+    address internal constant BASE_TOKEN_BRIDGE      = 0xA5874756416Fa632257eEA380CAbd2E87cED352A;
+    address internal constant BASE_TOKEN_BRIDGE_IMPL = 0xaeFd31c2e593Dc971f9Cb42cBbD5d4AD7F1970b6;
+    address internal constant BASE_ESCROW            = 0x7F311a4D48377030bD810395f4CCfC03bdbe9Ef3;
+    address internal constant BASE_GOV_RELAY         = 0x1Ee0AE8A993F2f5abDB51EAF4AC2876202b65c3b;
 
     /******************************************************************************************************************/
     /*** Multisigs                                                                                                  ***/

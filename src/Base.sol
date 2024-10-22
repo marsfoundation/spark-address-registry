@@ -20,10 +20,10 @@ library Base {
 
     address internal constant CCTP_TOKEN_MESSENGER = 0x1682Ae6375C4E4A97e4B583BC394c861A46D8962;
 
-    address internal constant L2_BRIDGE	      = 0xee44cdb68D618d58F75d9fe0818B640BD7B8A7B7;
-    address internal constant L2_BRIDGE_IMPL  = 0x289A37BE5D6CCeF7A8f2b90535B3BB6bD3905f72;
-    address internal constant L2_BRIDGE_SPELL = 0x6f29C3A29A3F056A71FB0714551C8D3547268D62;
-    address internal constant L2_GOV_RELAY    = 0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255;
+    address internal constant SKY_GOV_RELAY      = 0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255;
+    address internal constant TOKEN_BRIDGE       = 0xee44cdb68D618d58F75d9fe0818B640BD7B8A7B7;
+    address internal constant TOKEN_BRIDGE_IMPL  = 0x289A37BE5D6CCeF7A8f2b90535B3BB6bD3905f72;
+    address internal constant TOKEN_BRIDGE_SPELL = 0x6f29C3A29A3F056A71FB0714551C8D3547268D62;
 
     /******************************************************************************************************************/
     /*** Governance Relay Addresses                                                                                 ***/
