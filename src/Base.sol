@@ -7,13 +7,23 @@ library Base {
     /*** Token Addresses                                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant USDC = 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913;
+    address internal constant SKY        = 0x60e3c701e65DEE30c23c9Fb78c3866479cc0944a;
+    address internal constant SUSDS	     = 0x5875eEE11Cf8398102FdAd704C9E96607675467a;
+    address internal constant SUSDS_IMPL = 0x982f2DF63Fe38AB8d55f4B1464e8cfDc8eA5dEC8;
+    address internal constant USDC       = 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913;
+    address internal constant USDS	     = 0x820C137fa70C8691f0e44Dc420a5e53c168921Dc;
+    address internal constant USDS_IMPL	 = 0x191CD41681a3fE15aa15a0bec415821CE24CAd5e;
 
     /******************************************************************************************************************/
     /*** Bridging Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
     address internal constant CCTP_TOKEN_MESSENGER = 0x1682Ae6375C4E4A97e4B583BC394c861A46D8962;
+
+    address internal constant L2_BRIDGE	      = 0xee44cdb68D618d58F75d9fe0818B640BD7B8A7B7;
+    address internal constant L2_BRIDGE_IMPL  = 0x289A37BE5D6CCeF7A8f2b90535B3BB6bD3905f72;
+    address internal constant L2_BRIDGE_SPELL = 0x6f29C3A29A3F056A71FB0714551C8D3547268D62;
+    address internal constant L2_GOV_RELAY	  = 0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255;
 
     /******************************************************************************************************************/
     /*** Governance Relay Addresses                                                                                 ***/

@@ -42,6 +42,25 @@ library Ethereum {
     address internal constant SPARK_PROXY = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
 
     /******************************************************************************************************************/
+    /*** Allocation System Addresses                                                                                ***/
+    /******************************************************************************************************************/
+
+    address internal constant ALLOCATOR_BUFFER   = 0xc395D150e71378B47A1b8E9de0c1a83b75a08324;
+    address internal constant ALLOCATOR_ORACLE   = 0xc7B91C401C02B73CBdF424dFaaa60950d5040dB7;
+    address internal constant ALLOCATOR_REGISTRY = 0xCdCFA95343DA7821fdD01dc4d0AeDA958051bB3B;
+    address internal constant ALLOCATOR_ROLES	 = 0x9A865A710399cea85dbD9144b7a09C889e94E803;
+    address internal constant ALLOCATOR_VAULT	 = 0x691a6c29e9e96dd897718305427Ad5D534db16BA;
+
+    /******************************************************************************************************************/
+    /*** SkyLink Bridge Addresses                                                                                   ***/
+    /******************************************************************************************************************/
+
+    address internal constant ESCROW	     = 0x7F311a4D48377030bD810395f4CCfC03bdbe9Ef3;
+    address internal constant L1_BRIDGE	     = 0xA5874756416Fa632257eEA380CAbd2E87cED352A;
+    address internal constant L1_BRIDGE_IMPL = 0xaeFd31c2e593Dc971f9Cb42cBbD5d4AD7F1970b6;
+    address internal constant L1_GOV_RELAY   = 0x1Ee0AE8A993F2f5abDB51EAF4AC2876202b65c3b;
+
+    /******************************************************************************************************************/
     /*** Morpho Addresses                                                                                           ***/
     /******************************************************************************************************************/
 
