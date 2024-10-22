@@ -206,7 +206,7 @@ library Ethereum {
     address internal constant BASE_TOKEN_BRIDGE      = 0xA5874756416Fa632257eEA380CAbd2E87cED352A;
     address internal constant BASE_TOKEN_BRIDGE_IMPL = 0xaeFd31c2e593Dc971f9Cb42cBbD5d4AD7F1970b6;
     address internal constant BASE_ESCROW            = 0x7F311a4D48377030bD810395f4CCfC03bdbe9Ef3;
-    address internal constant BASE_GOV_RELAY         = 0x1Ee0AE8A993F2f5abDB51EAF4AC2876202b65c3b;
+    address internal constant BASE_SKY_GOV_RELAY     = 0x1Ee0AE8A993F2f5abDB51EAF4AC2876202b65c3b;
 
     /******************************************************************************************************************/
     /*** Multisigs                                                                                                  ***/
