@@ -192,9 +192,9 @@ library Ethereum {
 
     address internal constant CCTP_TOKEN_MESSENGER = 0xBd3fa81B58Ba92a82136038B25aDec7066af3155;
 
-    address internal constant DSR_FORWARDER_ARBITRUM    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
-    address internal constant DSR_FORWARDER_OPTIMISM    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
-    address internal constant DSR_FORWARDER_WORLD_CHAIN = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;
+    address internal constant ARBITRUM_DSR_FORWARDER    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
+    address internal constant OPTIMISM_DSR_FORWARDER    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
+    address internal constant WORLD_CHAIN_DSR_FORWARDER = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;
 
     /******************************************************************************************************************/
     /*** Base Addresses                                                                                             ***/
