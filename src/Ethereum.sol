@@ -42,6 +42,16 @@ library Ethereum {
     address internal constant SPARK_PROXY = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
 
     /******************************************************************************************************************/
+    /*** Allocation System Addresses                                                                                ***/
+    /******************************************************************************************************************/
+
+    address internal constant ALLOCATOR_BUFFER   = 0xc395D150e71378B47A1b8E9de0c1a83b75a08324;
+    address internal constant ALLOCATOR_ORACLE   = 0xc7B91C401C02B73CBdF424dFaaa60950d5040dB7;
+    address internal constant ALLOCATOR_REGISTRY = 0xCdCFA95343DA7821fdD01dc4d0AeDA958051bB3B;
+    address internal constant ALLOCATOR_ROLES	 = 0x9A865A710399cea85dbD9144b7a09C889e94E803;
+    address internal constant ALLOCATOR_VAULT	 = 0x691a6c29e9e96dd897718305427Ad5D534db16BA;
+
+    /******************************************************************************************************************/
     /*** Morpho Addresses                                                                                           ***/
     /******************************************************************************************************************/
 
@@ -182,12 +192,20 @@ library Ethereum {
 
     address internal constant CCTP_TOKEN_MESSENGER = 0xBd3fa81B58Ba92a82136038B25aDec7066af3155;
 
-    address internal constant DSR_FORWARDER_OPTIMISM    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
-    address internal constant DSR_FORWARDER_BASE        = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
-    address internal constant DSR_FORWARDER_ARBITRUM    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
-    address internal constant DSR_FORWARDER_WORLD_CHAIN = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;
+    address internal constant ARBITRUM_DSR_FORWARDER    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
+    address internal constant OPTIMISM_DSR_FORWARDER    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
+    address internal constant WORLD_CHAIN_DSR_FORWARDER = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;
 
-    address internal constant SSR_FORWARDER_BASE = 0xB2833392527f41262eB0E3C7b47AFbe030ef188E;
+    /******************************************************************************************************************/
+    /*** Base Addresses                                                                                             ***/
+    /******************************************************************************************************************/
+
+    address internal constant BASE_DSR_FORWARDER = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
+    address internal constant BASE_SSR_FORWARDER = 0xB2833392527f41262eB0E3C7b47AFbe030ef188E;
+
+    address internal constant BASE_ESCROW        = 0x7F311a4D48377030bD810395f4CCfC03bdbe9Ef3;
+    address internal constant BASE_SKY_GOV_RELAY = 0x1Ee0AE8A993F2f5abDB51EAF4AC2876202b65c3b;
+    address internal constant BASE_TOKEN_BRIDGE  = 0xA5874756416Fa632257eEA380CAbd2E87cED352A;
 
     /******************************************************************************************************************/
     /*** Multisigs                                                                                                  ***/
