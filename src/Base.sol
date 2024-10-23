@@ -22,10 +22,18 @@ library Base {
     address internal constant TOKEN_BRIDGE  = 0xee44cdb68D618d58F75d9fe0818B640BD7B8A7B7;
 
     /******************************************************************************************************************/
-    /*** Spark Liquidity Layer Addresses                                                                            ***/
+    /*** PSM Addresses                                                                                              ***/
     /******************************************************************************************************************/
 
     address internal constant PSM3 = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;
+
+    /******************************************************************************************************************/
+    /*** Spark Liquidity Layer Addresses                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant ALM_CONTROLLER  = 0xc07f705D0C0e9F8C79C5fbb748aC1246BBCC37Ba;
+    address internal constant ALM_PROXY       = 0x2917956eFF0B5eaF030abDB4EF4296DF775009cA;
+    address internal constant ALM_RATE_LIMITS = 0x983eC82E45C61a42FDDA7B3c43B8C767004c8A74;
 
     /******************************************************************************************************************/
     /*** Governance Relay Addresses                                                                                 ***/
