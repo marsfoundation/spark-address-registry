@@ -55,7 +55,7 @@ library Ethereum {
     /*** Spark Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0xb960F71ca3f1f57799F6e14501607f64f9B36F11;
+    address internal constant ALM_CONTROLLER  = 0x5cf73FDb7057E436A6eEaDFAd27E45E7ab6E431e;
     address internal constant ALM_PROXY       = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;
     address internal constant ALM_RATE_LIMITS = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;
 
@@ -67,6 +67,13 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant ETHENA_MINTER = 0xe3490297a08d6fC8Da46Edb7B6142E4F461b62D3;
+
+    /******************************************************************************************************************/
+    /*** Aave Addresses                                                                                             ***/
+    /******************************************************************************************************************/
+
+    address internal constant ATOKEN_CORE_USDS = 0x32a6268f9Ba3642Dda7892aDd74f1D34469A4259;
+    address internal constant ATOKEN_CORE_USDC = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
 
     /******************************************************************************************************************/
     /*** Morpho Addresses                                                                                           ***/
