@@ -50,7 +50,7 @@ library Base {
     /******************************************************************************************************************/
 
     address internal constant MORPHO_DEFAULT_IRM = 0x46415998764C29aB2a25CbeA6254146D50D22687;
-    address internal constant MORPHO_VAULT_SUSDC = 0x305E03Ed9ADaAB22F4A58c24515D79f2B1E2FD5D;
+    address internal constant MORPHO_VAULT_SUSDC = 0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A;
 
     /******************************************************************************************************************/
     /*** Governance Relay Addresses                                                                                 ***/
