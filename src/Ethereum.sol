@@ -79,6 +79,7 @@ library Ethereum {
     /*** Morpho Addresses                                                                                           ***/
     /******************************************************************************************************************/
 
+    address internal constant MORPHO              = 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb;
     address internal constant MORPHO_DEFAULT_IRM  = 0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC;
     address internal constant MORPHO_SUSDE_ORACLE = 0x5D916980D5Ae1737a8330Bf24dF812b2911Aae25;
     address internal constant MORPHO_USDE_ORACLE  = 0xaE4750d0813B5E37A51f7629beedd72AF1f9cA35;

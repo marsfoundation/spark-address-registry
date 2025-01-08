@@ -49,6 +49,7 @@ library Base {
     /*** Morpho Addresses                                                                                           ***/
     /******************************************************************************************************************/
 
+    address internal constant MORPHO             = 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb;
     address internal constant MORPHO_DEFAULT_IRM = 0x46415998764C29aB2a25CbeA6254146D50D22687;
     address internal constant MORPHO_VAULT_SUSDC = 0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A;
 
