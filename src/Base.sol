@@ -7,6 +7,7 @@ library Base {
     /*** Token Addresses                                                                                            ***/
     /******************************************************************************************************************/
 
+    address internal constant CBBTC = 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf;
     address internal constant SKY   = 0x60e3c701e65DEE30c23c9Fb78c3866479cc0944a;
     address internal constant SUSDS = 0x5875eEE11Cf8398102FdAd704C9E96607675467a;
     address internal constant USDC  = 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913;
@@ -31,12 +32,26 @@ library Base {
     /*** Spark Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0xc07f705D0C0e9F8C79C5fbb748aC1246BBCC37Ba;
+    address internal constant ALM_CONTROLLER  = 0x5F032555353f3A1D16aA6A4ADE0B35b369da0440;
     address internal constant ALM_PROXY       = 0x2917956eFF0B5eaF030abDB4EF4296DF775009cA;
     address internal constant ALM_RATE_LIMITS = 0x983eC82E45C61a42FDDA7B3c43B8C767004c8A74;
 
     address internal constant ALM_FREEZER = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
     address internal constant ALM_RELAYER = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
+
+    /******************************************************************************************************************/
+    /*** Aave Addresses                                                                                             ***/
+    /******************************************************************************************************************/
+
+    address internal constant ATOKEN_USDC = 0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB;
+
+    /******************************************************************************************************************/
+    /*** Morpho Addresses                                                                                           ***/
+    /******************************************************************************************************************/
+
+    address internal constant MORPHO             = 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb;
+    address internal constant MORPHO_DEFAULT_IRM = 0x46415998764C29aB2a25CbeA6254146D50D22687;
+    address internal constant MORPHO_VAULT_SUSDC = 0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A;
 
     /******************************************************************************************************************/
     /*** Governance Relay Addresses                                                                                 ***/
