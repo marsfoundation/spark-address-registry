@@ -65,8 +65,8 @@ library Base {
     /******************************************************************************************************************/
 
     address internal constant SSR_AUTH_ORACLE             = 0x65d946e533748A998B1f0E430803e39A6388f7a1;
-    address internal constant SSR_RECEIVER                = 0x212871A1C235892F86cAB30E937e18c94AEd8474;
     address internal constant SSR_CHAINLINK_RATE_PROVIDER = 0x026a5B6114431d8F3eF2fA0E1B2EDdDccA9c540E;
+    address internal constant SSR_RECEIVER                = 0x212871A1C235892F86cAB30E937e18c94AEd8474;
     address internal constant SSR_BALANCER_RATE_PROVIDER  = 0x49aF4eE75Ae62C2229bb2486a59Aa1a999f050f0;
 
     /******************************************************************************************************************/
