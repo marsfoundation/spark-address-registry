@@ -71,6 +71,7 @@ library XLayer {
     /*** Token addresses                                                                                            ***/
     /******************************************************************************************************************/
 
+    address internal constant USDC  = 0xB6CEceAB302E2E4948951eE7843FC24E92933061;
     address internal constant USDT0 = 0x779Ded0c9e1022225f8E0630b35a9b54bE713736;
 
 }
