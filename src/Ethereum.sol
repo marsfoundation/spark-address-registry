@@ -352,6 +352,8 @@ library Ethereum {
     address internal constant MORPHO_MARKET_V1_ADAPTER_V2_FACTORY = 0x32BB1c0D48D8b1B3363e86eeB9A0300BAd61ccc1;
     address internal constant MORPHO_VAULT_V2_ADAPTER_REGISTRY    = 0x3696c5eAe4a7Ffd04Ea163564571E9CD8Ed9364e;
 
+    address internal constant SENTORA_RLUSD_MORPHO_VAULT_V2 = 0xFC8C624B6080a0a780583799f2A862DE936F6E22;
+
     /******************************************************************************************************************/
     /*** Superstate addresses                                                                                       ***/
     /******************************************************************************************************************/
