@@ -85,14 +85,46 @@ library SparkLend {
     address internal constant WSTETH_SPTOKEN    = 0x12B54025C112Aa61fAce2CDB7118740875A566E9;
 
     /******************************************************************************************************************/
+    /*** Interest rate strategy addresses                                                                           ***/
+    /******************************************************************************************************************/
+
+    address internal constant CBBTC_TBTC_IRM             = 0x75a1397c72e2965447D2282Dd99eFC75cC080396; // sparklend-v1-core/DefaultReserveInterestRateStrategy@8120e495 (v1.0.0)
+    address internal constant DAI_USDS_IRM               = 0x8a95998639A34462A1FdAaaA5506F66F90Ef2fDd; // sparklend-advanced/RateTargetKinkInterestRateStrategy@e2ba58d (v1.6.0)
+    address internal constant GNO_IRM                    = 0x554265A713D6746A62d86A797254590784D436AA; // sparklend-v1-core/DefaultReserveInterestRateStrategy@8120e495 (v1.0.0)
+    address internal constant WEETH_LBTC_EZETH_RSETH_IRM = 0xDe5Dde40E12763464dc859A9F03793988dE953FB; // sparklend-v1-core/DefaultReserveInterestRateStrategy@8120e495 (v1.0.0)
+    address internal constant PYUSD_IRM                  = 0xDF7dedCfd522B1ee8da2c8526f642745800c8035; // sparklend-advanced/RateTargetBaseInterestRateStrategy@e2ba58d (v1.6.0)
+    address internal constant RETH_IRM                   = 0xc1077B2De7b328A84c66A3e419369F8537DC1cFe; // sparklend-v1-core/DefaultReserveInterestRateStrategy@8120e495 (v1.0.0)
+    address internal constant SDAI_IRM                   = 0xeC4cf692c18E62159a39704Aa1Db82ca2306fF90; // sparklend-v1-core/DefaultReserveInterestRateStrategy@8120e495 (v1.0.0)
+    address internal constant SUSDS_IRM                  = 0xa8632b2f0A3C5327a77ee51a47A168B6490A7178; // sparklend-v1-core/DefaultReserveInterestRateStrategy@8120e495 (v1.0.0)
+    address internal constant USDC_IRM                   = 0xDE99e49E9e42B1d8490C38926e6C9A79010e6eF2; // sparklend-advanced/RateTargetKinkInterestRateStrategy@e2ba58d (v1.6.0)
+    address internal constant USDG_RLUSD_IRM             = 0x473fDf9713C9a02A9a9c17173a57d120493F3C6B; // sparklend-advanced/RateTargetBaseInterestRateStrategy@e2ba58d (v1.6.0)
+    address internal constant USDT_IRM                   = 0x4FA65B096681bD6FeecF78e5D83096bf4A5762A0; // sparklend-advanced/RateTargetKinkInterestRateStrategy@e2ba58d (v1.6.0)
+    address internal constant WBTC_IRM                   = 0xD2139d6d63Acb1e7Cc91cE32bbD86eFb17eBEe46; // sparklend-v1-core/DefaultReserveInterestRateStrategy@8120e495 (v1.0.0)
+    address internal constant WETH_IRM                   = 0xDFB6206FfC5BA5B48D2852370ee6A1bf6887476a; // sparklend-advanced/RateTargetKinkInterestRateStrategy@e2ba58d (v1.6.0)
+    address internal constant WSTETH_IRM                 = 0xDD94eC5C14407e0bd6760c8eBDcD4Ec1327D3656; // sparklend-v1-core/DefaultReserveInterestRateStrategy@8120e495 (v1.0.0)
+
+    /******************************************************************************************************************/
+    /*** Price feed addresses                                                                                       ***/
+    /******************************************************************************************************************/
+
+    address internal constant EZETH_PRICE_FEED     = 0x52E85eB49e07dF74c8A9466D2164b4C4cA60014A; // sparklend-advanced/EZETHExchangeRateOracle@e2ba58d (v1.6.0)
+    address internal constant FIXED_USD_PRICE_FEED = 0x42a03F81dd8A1cEcD746dc262e4d1CD9fD39F777; // sparklend-advanced/FixedPriceOracle@cb80380 (v1.0.0)
+    address internal constant RETH_PRICE_FEED      = 0xFDdf8D19D092839A26b31365c927cA236B5086cf; // sparklend-advanced/RETHExchangeRateOracle@58d7430 (v1.4.0)
+    address internal constant RSETH_PRICE_FEED     = 0x70942D6b580741CF50A7906f4100063EE037b8eb; // sparklend-advanced/RSETHExchangeRateOracle@e2ba58d (v1.6.0)
+    address internal constant SDAI_PRICE_FEED      = 0x0c0864837C7e65458aCD3C665222203217019436; // sparklend-deployments/SavingsDaiOracle@a4e2e20
+    address internal constant SUSDS_PRICE_FEED     = 0x27f3A665c75aFdf43CfbF6B3A859B698f46ef656; // sparklend-deployments/SavingsDaiOracle@a4e2e20
+    address internal constant WEETH_PRICE_FEED     = 0xBE21C54Dff3b2F1708970d185aa5b0eEB70556f1; // sparklend-advanced/WEETHExchangeRateOracle@58d7430 (v1.4.0)
+    address internal constant WSTETH_PRICE_FEED    = 0xE98d51fa014C7Ed68018DbfE6347DE9C3f39Ca39; // sparklend-advanced/WSTETHExchangeRateOracle@58d7430 (v1.4.0)
+
+    /******************************************************************************************************************/
     /*** Auxiliary protocol addresses                                                                               ***/
     /******************************************************************************************************************/
 
-    address internal constant CAP_AUTOMATOR        = 0x4C1341636721b8B687647920B2E9481f3AB1F2eE;
-    address internal constant FIXED_USD_PRICE_FEED = 0x42a03F81dd8A1cEcD746dc262e4d1CD9fD39F777;
-    address internal constant FREEZER_MOM          = 0x237e3985dD7E373F2ec878EC1Ac48A228Cf2e7a3;
-    address internal constant KILL_SWITCH_ORACLE   = 0x909A86f78e1cdEd68F9c2Fe2c9CD922c401abe82;
-    address internal constant SSR_RATE_SOURCE      = 0x57027B6262083E3aC3c8B2EB99f7e8005f669973;
+    address internal constant CAP_AUTOMATOR               = 0x4C1341636721b8B687647920B2E9481f3AB1F2eE; // sparklend-cap-automator/CapAutomator@f115d10 (v1.1.0)
+    address internal constant FREEZER_MOM                 = 0x237e3985dD7E373F2ec878EC1Ac48A228Cf2e7a3; // sparklend-freezer/SparkLendFreezerMom@24fd954 (v1.1.0)
+    address internal constant KILL_SWITCH_ORACLE          = 0x909A86f78e1cdEd68F9c2Fe2c9CD922c401abe82; // sparklend-kill-switch/KillSwitchOracle@0fc7c0d (v1.0.0)
+    address internal constant SSR_RATE_SOURCE             = 0x57027B6262083E3aC3c8B2EB99f7e8005f669973; // sparklend-advanced/SSRRateSource@58d7430 (v1.4.0)
+    address internal constant CAPPED_FALLBACK_RATE_SOURCE = 0xaBc99f366D2bE1f4e5b8DFC0F561a751dd836246; // sparklend-advanced/CappedFallbackRateSource@d54bd76 (v1.3.0)
 
     /******************************************************************************************************************/
     /*** Kill switch oracle addresses                                                                               ***/
@@ -148,8 +180,15 @@ library SparkLend {
     /*** External addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant LBTC_BTC_ORACLE           = 0x5c29868C58b6e15e2b962943278969Ab6a7D3212;
-    address internal constant STETH_ETH_ORACLE          = 0x86392dC19c0b719886221c78AB11eb8Cf5c52812;
-    address internal constant WBTC_BTC_CHAINLINK_ORACLE = 0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23;
+    // Kill switch oracle addresses
+    address internal constant LBTC_BTC_CHAINLINK_ORACLE  = 0x5c29868C58b6e15e2b962943278969Ab6a7D3212;
+    address internal constant STETH_ETH_CHAINLINK_ORACLE = 0x86392dC19c0b719886221c78AB11eb8Cf5c52812;
+    address internal constant WBTC_BTC_CHAINLINK_ORACLE  = 0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23;
+
+    // Price feed addresses
+    address internal constant BTC_USD_CHRONICLE_AGGOR_ORACLE = 0x4219aA1A99f3fe90C2ACB97fCbc1204f6485B537;
+    address internal constant ETH_USD_CHRONICLE_AGGOR_ORACLE = 0x2750e4CB635aF1FCCFB10C0eA54B5b5bfC2759b6;
+    address internal constant GNO_PRICE_SKY_ORACLE           = 0x4A7Ad931cb40b564A1C453545059131B126BC828;
+    address internal constant WBTC_PRICE_BGD_ORACLE          = 0x230E0321Cf38F09e247e50Afc7801EA2351fe56F;
 
 }
