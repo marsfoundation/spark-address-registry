@@ -38,7 +38,7 @@ library XLayer {
     address internal constant LAYER_ZERO_FACET     = 0x936D542661734F2D9a96A75fF27B1BC1D2B5dfB5;  // diamond-pau/LayerZeroFacet.sol@cbf71b2 (v1.14.0)
     address internal constant SPARK_VAULT_FACET    = 0x3a35fF0B4D6375f8F3692562d378C1e5Ed482053;  // diamond-pau/SparkVaultFacet.sol@cbf71b2 (v1.14.0)
     address internal constant TRANSFER_ASSET_FACET = 0xF0830c3B800a36ff3F3E9229e0443CD5b7779e0D;  // diamond-pau/TransferAssetFacet.sol@cbf71b2 (v1.14.0)
-    // address internal constant UNISWAP_V4_FACET     = // @TODO: Deploy facet
+    address internal constant UNISWAP_V4_FACET     = 0x5d694339037c551D71825bf9B812D4350972369e;  // diamond-pau/UniswapV4Facet.sol@cbf71b2 (v1.14.0)
 
     /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
