@@ -61,12 +61,12 @@ library XLayer {
     /*** Spark SPUSDC Seggregated PAU addresses                                                                     ***/
     /******************************************************************************************************************/
 
-    address internal constant SPUSDC_PAU_ACCESS_CONTROLS = 0x30271Ae5d90B34f0f8BAA840AaE63a7DBF347e84;
-    address internal constant SPUSDC_PAU_ALM_PROXY       = 0xe6D5d041Fc5e7fDD0A53C13e78a1cc7e4ffCb667;
-    address internal constant SPUSDC_PAU_CONTROLLER      = 0x8d19d306cA6075f74B26B150383379aedB0250f6;
-    address internal constant SPUSDC_PAU_RATELIMITS      = 0xBC3Ea763532aA0dec71449414b85ca66c6dD63e2;
+    address internal constant SPUSDC_PAU_ACCESS_CONTROLS = 0x30271Ae5d90B34f0f8BAA840AaE63a7DBF347e84;  // diamond-pau/AccessControls.sol@cbf71b2 (v1.14.0)
+    address internal constant SPUSDC_PAU_ALM_PROXY       = 0xe6D5d041Fc5e7fDD0A53C13e78a1cc7e4ffCb667;  // diamond-pau/ALMProxy.sol@cbf71b2 (v1.14.0)
+    address internal constant SPUSDC_PAU_CONTROLLER      = 0x8d19d306cA6075f74B26B150383379aedB0250f6;  // diamond-pau/Controller.sol@cbf71b2 (v1.14.0)
+    address internal constant SPUSDC_PAU_RATELIMITS      = 0xBC3Ea763532aA0dec71449414b85ca66c6dD63e2;  // diamond-pau/RateLimits.sol@cbf71b2 (v1.14.0)
 
-    address internal constant SPUSDC_PAU_ADMINISTERED_AGENT         = 0x79b4055Eda153f739B5EA63C9B647c1a095059f5;
+    address internal constant SPUSDC_PAU_ADMINISTERED_AGENT         = 0x79b4055Eda153f739B5EA63C9B647c1a095059f5;  // pau-administered-agent/AdministeredAgent.sol@bfaaf70 (v1.0.0)
     // address internal constant SPUSDC_PAU_ADMINISTERED_AGENT_ADMIN   = ; // @TODO : add admin address
     address internal constant SPUSDC_PAU_ADMINISTERED_AGENT_ACTOR   = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
     address internal constant SPUSDC_PAU_ADMINISTERED_AGENT_GRANTOR = 0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514;

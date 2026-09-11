@@ -20,6 +20,15 @@ library Ethereum {
     address internal constant SPK         = 0xc20059e0317DE91738d13af027DfC4a50781b066;
 
     /******************************************************************************************************************/
+    /*** Spark PAU Core addresses                                                                                   ***/
+    /******************************************************************************************************************/
+
+    address internal constant BEACON                     = 0xd47230358AB6c52A0a988150Ac4Ab888FE8B7786;  // diamond-pau/Beacon.sol@cbf71b2 (v1.14.0)
+    address internal constant PAU_FACTORY                = 0x60eB26db57bD058B6D742a1f6350A7FFeAb0681E;  // diamond-pau/PauFactory.sol@cbf71b2 (v1.14.0)
+    address internal constant ADMINISTERED_AGENT_FACTORY = 0x74C35B0990ea530926d2656003Cb3E3Bf286cA69;  // pau-administered-agent/AdministeredAgentFactory.sol@bfaaf70 (v1.0.0)
+    address internal constant DEFAULT_PAU_ASSEMBLER      = 0xb2468FCc87E3BE45Bfa521e567731375887BF8e2;  // pau-assemblers/DefaultPauAssembler.sol@d7d6f08 (v1.0.0)
+
+    /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
@@ -37,6 +46,21 @@ library Ethereum {
     address internal constant SPARK_VAULT_V2_SPPYUSD = 0x80128DbB9f07b93DDE62A6daeadb69ED14a7D354;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
     address internal constant SPARK_VAULT_V2_SPUSDC  = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
     address internal constant SPARK_VAULT_V2_SPUSDT  = 0xe2e7a17dFf93280dec073C995595155283e3C372;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
+
+    /******************************************************************************************************************/
+    /*** Spark SPUSDC Seggregated PAU addresses                                                                     ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPUSDC_PAU_ACCESS_CONTROLS = 0x36F61446638BE126a189689552f38159d30f95ef;  // diamond-pau/AccessControls.sol@cbf71b2 (v1.14.0)
+    address internal constant SPUSDC_PAU_ALM_PROXY       = 0x8D719A830b00e5571db00D173505CD56c0Ec224a;  // diamond-pau/ALMProxy.sol@cbf71b2 (v1.14.0)
+    address internal constant SPUSDC_PAU_CONTROLLER      = 0x4623cdEf0FB92499fd20f710318Cf17B8a7EB6bC;  // diamond-pau/Controller.sol@cbf71b2 (v1.14.0)
+    address internal constant SPUSDC_PAU_RATELIMITS      = 0x222712581c3631DDF938f98Dab29a6D098ec6829;  // diamond-pau/RateLimits.sol@cbf71b2 (v1.14.0)
+
+    address internal constant SPUSDC_PAU_ADMINISTERED_AGENT         = 0xD30faA074D023af8525750561beC2Aa181562866;  // pau-administered-agent/AdministeredAgent.sol@bfaaf70 (v1.0.0)
+    // address internal constant SPUSDC_PAU_ADMINISTERED_AGENT_ADMIN   = ; // @TODO : add admin address
+    address internal constant SPUSDC_PAU_ADMINISTERED_AGENT_ACTOR   = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
+    address internal constant SPUSDC_PAU_ADMINISTERED_AGENT_GRANTOR = 0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514;
+    address internal constant SPUSDC_PAU_ADMINISTERED_AGENT_REVOKER = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
 
     /******************************************************************************************************************/
     /*** Spark Intents addresses                                                                                    ***/
