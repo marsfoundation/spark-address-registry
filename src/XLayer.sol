@@ -23,10 +23,10 @@ library XLayer {
     /*** Spark PAU Core addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant BEACON                     = 0x5612697F3F8c393A860ac0C9cf5b315c248cB0a0;  // diamond-pau/Beacon.sol@cbf71b2 (v1.14.0)
-    address internal constant PAU_FACTORY                = 0x0B33b8974eDe2985ac9E41931314337C01543fFE;  // diamond-pau/PauFactory.sol@cbf71b2 (v1.14.0)
-    address internal constant ADMINISTERED_AGENT_FACTORY = 0x039bC8CAe7A5b2B981E5ED98B840C76c7FBacDAc;  // pau-administered-agent/AdministeredAgentFactory.sol@bfaaf70 (v1.0.0)
-    address internal constant DEFAULT_PAU_ASSEMBLER      = 0xaCae58f96C959A792FaeaEc72CA870c2E36B3C80;  // pau-assemblers/DefaultPauAssembler.sol@d7d6f08 (v1.0.0)
+    address internal constant SPARK_BEACON                     = 0x5612697F3F8c393A860ac0C9cf5b315c248cB0a0;  // diamond-pau/Beacon.sol@cbf71b2 (v1.14.0)
+    address internal constant SPARK_PAU_FACTORY                = 0x0B33b8974eDe2985ac9E41931314337C01543fFE;  // diamond-pau/PauFactory.sol@cbf71b2 (v1.14.0)
+    address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0x039bC8CAe7A5b2B981E5ED98B840C76c7FBacDAc;  // pau-administered-agent/AdministeredAgentFactory.sol@bfaaf70 (v1.0.0)
+    address internal constant SPARK_DEFAULT_PAU_ASSEMBLER      = 0xaCae58f96C959A792FaeaEc72CA870c2E36B3C80;  // pau-assemblers/DefaultPauAssembler.sol@d7d6f08 (v1.0.0)
 
     /******************************************************************************************************************/
     /*** Spark PAU Facets addresses                                                                                 ***/
@@ -61,16 +61,11 @@ library XLayer {
     /*** Spark SPUSDC Seggregated PAU addresses                                                                     ***/
     /******************************************************************************************************************/
 
-    address internal constant SPUSDC_PAU_ACCESS_CONTROLS = 0x30271Ae5d90B34f0f8BAA840AaE63a7DBF347e84;  // diamond-pau/AccessControls.sol@cbf71b2 (v1.14.0)
-    address internal constant SPUSDC_PAU_ALM_PROXY       = 0xe6D5d041Fc5e7fDD0A53C13e78a1cc7e4ffCb667;  // diamond-pau/ALMProxy.sol@cbf71b2 (v1.14.0)
-    address internal constant SPUSDC_PAU_CONTROLLER      = 0x8d19d306cA6075f74B26B150383379aedB0250f6;  // diamond-pau/Controller.sol@cbf71b2 (v1.14.0)
-    address internal constant SPUSDC_PAU_RATELIMITS      = 0xBC3Ea763532aA0dec71449414b85ca66c6dD63e2;  // diamond-pau/RateLimits.sol@cbf71b2 (v1.14.0)
-
-    address internal constant SPUSDC_PAU_ADMINISTERED_AGENT         = 0x79b4055Eda153f739B5EA63C9B647c1a095059f5;  // pau-administered-agent/AdministeredAgent.sol@bfaaf70 (v1.0.0)
-    // address internal constant SPUSDC_PAU_ADMINISTERED_AGENT_ADMIN   = ; // @TODO : add admin address
-    address internal constant SPUSDC_PAU_ADMINISTERED_AGENT_ACTOR   = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
-    address internal constant SPUSDC_PAU_ADMINISTERED_AGENT_GRANTOR = 0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514;
-    address internal constant SPUSDC_PAU_ADMINISTERED_AGENT_REVOKER = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
+    address internal constant SPUSDC_PAU_ACCESS_CONTROLS    = 0x30271Ae5d90B34f0f8BAA840AaE63a7DBF347e84;  // diamond-pau/AccessControls.sol@cbf71b2 (v1.14.0)
+    address internal constant SPUSDC_PAU_ADMINISTERED_AGENT = 0x79b4055Eda153f739B5EA63C9B647c1a095059f5;  // pau-administered-agent/AdministeredAgent.sol@bfaaf70 (v1.0.0)
+    address internal constant SPUSDC_PAU_ALM_PROXY          = 0xe6D5d041Fc5e7fDD0A53C13e78a1cc7e4ffCb667;  // diamond-pau/ALMProxy.sol@cbf71b2 (v1.14.0)
+    address internal constant SPUSDC_PAU_CONTROLLER         = 0x8d19d306cA6075f74B26B150383379aedB0250f6;  // diamond-pau/Controller.sol@cbf71b2 (v1.14.0)
+    address internal constant SPUSDC_PAU_RATELIMITS         = 0xBC3Ea763532aA0dec71449414b85ca66c6dD63e2;  // diamond-pau/RateLimits.sol@cbf71b2 (v1.14.0)
 
     /******************************************************************************************************************/
     /*** Spark Intents addresses                                                                                    ***/
@@ -91,9 +86,13 @@ library XLayer {
     /*** Multisig addresses                                                                                         ***/
     /******************************************************************************************************************/
 
+    // Operational Multisigs
+    address internal constant ALM_RELAYER_MULTISIG = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
+    address internal constant PAU_GRANTOR_MULTISIG = 0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514;
+
+    // Emergency Multisigs
     address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x9330edE0Fc6E3E0D47Ebf3C145efd569796aC7F5;
     address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
-    address internal constant ALM_RELAYER_MULTISIG          = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
 
     /*******************************************************************************************************************
 
