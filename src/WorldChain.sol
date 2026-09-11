@@ -16,9 +16,9 @@ library WorldChain {
     /*** DSR Oracle addresses                                                                                       ***/
     /******************************************************************************************************************/
 
-    address internal constant DSR_AUTH_ORACLE            = 0x779053E25267B591Dcfbb20b2397462aaaD6B776;  // xchain-ssr-oracle/DSRAuthOracle.sol@cd15a90 (v1.1.1-beta.1, audited: Cantina/Spearbit 2024-09-09)
+    address internal constant DSR_AUTH_ORACLE            = 0x779053E25267B591Dcfbb20b2397462aaaD6B776;  // xchain-ssr-oracle/DSRAuthOracle.sol@cbd09d8 (v1.1.1-beta.1, audited: Cantina/Spearbit 2024-09-09)
     address internal constant DSR_RECEIVER               = 0x33a3aB524A43E69f30bFd9Ae97d1Ec679FF00B64;  // xchain-helpers/OptimismReceiver.sol@07e27b6 (v1.0.0)
-    address internal constant DSR_BALANCER_RATE_PROVIDER = 0xE206AEbca7B28e3E8d6787df00B010D4a77c32F3;  // xchain-ssr-oracle/DSRBalancerRateProviderAdapter.sol@cd15a90 (v1.1.1-beta.1, audited: Cantina/Spearbit 2024-09-09)
+    address internal constant DSR_BALANCER_RATE_PROVIDER = 0xE206AEbca7B28e3E8d6787df00B010D4a77c32F3;  // xchain-ssr-oracle/DSRBalancerRateProviderAdapter.sol@cd15a90 (v1.1.1-beta.0, audited: Cantina/Spearbit 2024-09-09)
 
     /*******************************************************************************************************************
 

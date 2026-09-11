@@ -157,7 +157,7 @@ library Ethereum {
     /*** Miscellaneous addresses                                                                                      */
     /******************************************************************************************************************/
 
-    address internal constant DSS_VEST = 0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09;
+    address internal constant DSS_VEST = 0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09;  // dss-vest/DssVest.sol@59b0a51 (untagged, fork of makerdao/dss-vest)
 
     /*******************************************************************************************************************
 

@@ -14,3 +14,7 @@ docs/
 .env
 
 lcov.info
+
+# Local session context and personal Claude Code settings (never committed)
+agent-notes/
+.claude/settings.local.json
